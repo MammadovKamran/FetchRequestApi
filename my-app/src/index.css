@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.category{
+  display: flex;
+  flex-direction:column;
+  padding-right: 30px;
+}
+.category >h2{
+  border: 1px solid #ccc;
+}
+.category >div{
+  border:   1px solid #ccc;
+}
+.category_item{
+  padding-bottom: 20px;
+}
+
+ul,li {
+  list-style-type: none;
+}
